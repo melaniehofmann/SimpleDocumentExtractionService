@@ -1,0 +1,6 @@
+version: '3'
+services:
+  homeassignment:
+    image: mhofmann/documentextractionservice:latest
+    ports:
+      - "8080:8080"
